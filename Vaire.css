@@ -1,0 +1,178 @@
+/* Общие стили */
+body {
+    background-image: url("images/vaire_6.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.h5 {
+    background-color: #4f6068;
+    color: #b4b9bc;
+    padding: 1px;
+    border-radius: 4px;
+    width: 11%;
+    border-width: 2px;
+    text-shadow: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+
+
+/* Стили для кнопок */
+.ad {
+    background-color: #dfdfdf;
+    padding: 10px;
+    border-radius: 40px;
+    width: 11%;
+    border-width: 2px;
+    text-shadow: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+/* Уникальные цвета для кнопок */
+.print {
+    background-color: #051577;
+    background-size: heigth 50px;
+}
+
+.promo {
+    background-color: #a98909;
+}
+
+.design {
+    background-color: #424245;
+}
+
+.whats {
+    background-color: #1a5e05;
+}
+
+.smm {
+    background-color: #bb1c07;
+}
+
+/* Стили для активных кнопок при наведении */
+.ad:hover {
+    background-color: #ffffff;
+}
+
+/* Разделы с информацией */
+.section {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: opacity 0.5s ease-in-out;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25); /* Тень снизу */
+}
+
+/* Уникальные фоны для каждого раздела */
+.print-section {
+    background-color: #051577;   /* Синий */
+}
+
+.promo-section {
+    background-color: #c0b504;  /* Желто-зеленый */
+}
+
+.design-section {
+    background-color: #000000;   /* Черный */
+}
+
+.whats-section {
+    background-color: #166b02;   /* Зеленый */
+}
+
+.smm-section {
+    background-color: #F1493F;  /* Красный */
+}
+
+/* Стили для заголовков в разделах */
+h3 {
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Мобильная версия: медиа-запросы */
+@media (max-width: 768px) {
+    /* Сделаем кнопки шире */
+    .ad {
+        width: 80%;  /* Кнопки займут большую часть экрана */
+        margin-left: 10%;
+    }
+
+    /* Увеличиваем размер шрифта для заголовков */
+    h2 {
+        font-size: 24px;
+    }
+
+    /* Увеличиваем размер шрифта для текста */
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Скрытые элементы, если они не видны */
+    .section {
+        padding: 10px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Для очень маленьких экранов еще больше адаптируем */
+    .ad {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+img {
+    transition: transform 3s ease, width 3s ease; /* Плавный переход для transform и width */
+}
+
+img:hover {
+    transform: scale(1.2); /* Увеличиваем изображение при наведении */
+    width: 500px; /* Устанавливаем фиксированную ширину при наведении */
+    margin: 0 auto;
+    left: 50%;
+}
+
