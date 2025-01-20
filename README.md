@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vaire.kz</title>
+    <link rel="icon" href="images/vaire_2_1 (1).png" type="image/x-icon">
+    <link href="Vaire.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="jquery-3.7.1.slim.js"></script>
+    <script type="text/javascript" src="Vaire.js"></script>
+    <style>
+        .section {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>Рекламное агентство Vaire — агентство, предоставляющее услуги по рекламе и развитию бизнеса под ключ.</h3>
+    </div>
+
+        <h5 class="h5">Читать подробнее:</h5>
+
+    <div>
+        <button type="button" class="ad print">Типография</button>
+        <button type="button" class="ad promo">Промоушен</button>
+        <button type="button" class="ad design">Графический Дизайн</button>
+        <button type="button" class="ad whats">WhatsApp рассылки</button>
+        <button type="button" class="ad smm">SMM в соц. сетях</button>
+    </div>
+
+    <br/><br/><br/><br/><br/>
+
+    <img src="images/vaire_9.png" alt="О нас:" width="50">
+
+    <!-- Разделы с информацией -->
+    <div></div>
+    <div class="section print">
+        <h3>Типография</h3>
+        <p>Мы предлагаем услуги типографии, такие как печать визиток, буклетов и других материалов.</p>
+    </div>
+
+    <div class="section promo">
+        <h3>Промоушен</h3>
+        <p>Организация рекламных акций и мероприятий для вашего бизнеса. Повышение узнаваемости бренда.</p>
+    </div>
+
+    <div class="section design">
+        <h3>Графический Дизайн</h3>
+        <p>Создание логотипов, фирменного стиля, дизайна упаковки и рекламных материалов.</p>
+    </div>
+
+    <div class="section whats">
+        <h3>WhatsApp рассылки</h3>
+        <p>Мы предоставляем услуги по созданию WhatsApp рассылок для бизнеса.</p>
+    </div>
+
+    <div class="section smm">
+        <h3>SMM в соц. сетях</h3>
+        <p>Продвижение в социальных сетях, таких как Instagram, Tik-Tok, Vk. Стратегии контента и рекламы.</p>
+    </div>
+
+    <br />
+    <div>
+        Ссылка на Instagram: <a id="a1" href="https://www.instagram.com/vaire.group.kz/profilecard/?igsh=MXdta3cyeGlsN2FzZg==" target="_blank">vaire.group.kz</a><br />
+        Ссылка на почту: <a href="mailto:vaire.print@mail.ru" target="_blank">vaire.print@mail.ru</a><br />
+        Руководство: <a href="https://api.whatsapp.com/send/?phone=%2B77750947937&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%0A%28%D0%9F%D0%B8%D1%88%D1%83%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20vaire.kz%29" target="_blank">+77750947937</a><br/><br/>
+        <strong>Оформить заказ:</strong><a href="https://api.whatsapp.com/send/?phone=%2B77752894427&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%0A%28%D0%9F%D0%B8%D1%88%D1%83%20%D0%B2%D0%B0%D0%BC%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20vaire.kz%29" target="_blank">Менеджер</a>
+    </div>
+</body>
+</html>
