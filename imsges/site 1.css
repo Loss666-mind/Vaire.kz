@@ -1,0 +1,64 @@
+body{
+	background-image: url("images/vaire 1.jpg");
+	text-stroke: 2px solid #ffffff;
+	width: 50%;
+}
+
+.my-text {
+  color: #ffffff; /* Цвет текста */
+  -webkit-text-stroke: 1px #FFFFFF; /* Толщина и цвет обводки */
+  text-stroke: 1px #FFFFFF; /* Толщина и цвет обводки (стандартное свойство) */
+}
+
+a {
+	color: blue;
+	font-size: 17px;
+}
+
+h3 {
+	color: #000000;
+}
+
+#a1 {
+	color: red;
+}
+
+ul {
+	color: blue;
+}
+
+.human{
+	color: blue;
+	background-color: #efefef;
+	font-size: 20px;
+}
+
+.promo{
+	color: orange;
+}
+
+.disayn{
+	color: black;
+}
+
+.whats{
+	color: green;
+}
+
+.smm{
+	color: RED;
+}
+
+li{
+	border: 1px solid black;
+	background-color: #efefef;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 40px;
+} 
+
+li:hover{
+	border: 5px solid #323232;
+}
+
+div
